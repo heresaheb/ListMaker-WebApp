@@ -389,7 +389,7 @@ function ifAnsYes(){
         document.querySelector("#confirm").innerHTML = askOneMore;
 
         getVal();//print getting value
-        console.log(genereList);
+        //console.log(genereList);
 
         document.querySelector("#genere").value="";
         document.querySelector("#items").value= "";
@@ -493,8 +493,8 @@ function ifAnsYes(){
 
     document.querySelector("#items").value= ""; //set input value null
 
-        console.log("items List: "+itemList);
-        console.log(itemList);    
+       // console.log("items List: "+itemList);
+        //console.log(itemList);    
     }
 
     let genereAdd =true;
