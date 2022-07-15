@@ -1,0 +1,275 @@
+#intro{
+    margin-top: 0px;
+    font-size: 20px;
+    text-align: center;
+    font-family:cursive;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.362);
+    width: 27pc;
+    /* margin-left: 30pc; */
+}
+
+body{
+    /* background-color: #000000;  */
+    background-color: rgb(0, 1, 5);
+     color: white;  
+     background-image: url("737482.png");
+     background-repeat: no-repeat;
+     background-size: 100vw;
+     
+}
+
+header{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#head1{
+    margin-bottom: 10px ;
+}
+#note1{
+    margin-top: 0px;
+}
+/* @media screen */
+#form{
+    padding-bottom: 5px;
+}
+ #frontBottom, #form{ 
+    border-color: rgba(0, 0, 0, 0.403); 
+    border-style:double;
+    text-align: center;
+    background-color: rgba(137, 43, 226, 0.628);
+    border-radius: 20px;
+    width: 50ch;
+    margin-left:30pc;
+}
+
+/* for doneItems only */
+.fontSpecial{  
+    font-size: 4vw;
+    font-style: italic;
+    font-weight: 400;
+    margin-left: 10px;
+}
+#image1{
+    background-image: url("737482.png");
+    background-repeat: no-repeat;
+    background-size: 100vw;
+}
+h1{
+    font-size: 15mm;
+}
+input{
+    font-size: 20px;
+    border-radius: 5px;
+}
+#items{
+    margin-right: 50px;
+}
+button{
+    font-size: 20px;
+    cursor: pointer;
+    transition: width 5px;
+}
+button:hover{
+    /* transition-property: background-color;
+    transition-duration: 1s;
+    transition-timing-function: 1s; */
+    background-color: aqua;
+    border-radius: 5px;
+}
+#confirm{
+    margin-left: 30pc;
+    background-color: rgba(32, 17, 234, 0.658);
+    color: rgb(219, 255, 12);
+    border-radius: 10px;
+    box-sizing: border-box;
+    width: fit-content;
+}
+#confirm > h3> button{
+    margin-left: 3pc;
+    margin-top: 10px;
+}
+
+#list{
+    display:flex;
+}
+
+
+/* @media screen */
+.section{
+    background-color: rgba(84, 128, 166, 0.597);
+    color: black;
+    margin-left: 2.5vw;
+    margin-right: 15px;
+    width: 15pc;
+    margin-bottom: 10px;
+    border-radius: 15%;
+    overflow-wrap:calc(" ");
+    overflow: hidden;
+}
+.section > h1{
+color: rgb(0, 255, 255);
+font-size: 3vw;
+  
+}
+.section > h1, ul{
+    margin: 0px;
+    padding: 5px;
+}
+.section > ul{
+    font-size: 25px;  
+    
+}
+.section > p > span{
+    color: aliceblue;
+    font-size: 40px;
+}
+#doneItems> h2{
+    text-align: center;
+    color: aliceblue;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#doneItems{
+    border-radius: 15%;
+    margin-top: 30px;
+    background-color: rgba(114, 154, 82, 0.786);
+     margin-left: 8vw;
+     height: 30vw;
+     width: 80vw;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     /* color: red; */
+     overflow: hidden;
+     overflow-wrap:calc(" ");
+}
+
+.genereMargin{
+    margin: 0px;
+}
+.warning{
+    /* background-color: red; */
+    color: red;
+    /* margin-left:25vw; */
+    /* margin-right:25vw; */
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.image > button :hover{
+    background-color: red;
+    cursor: pointer;
+    border-radius: 10px; 
+}
+
+.image > button  {
+    width:fit-content;
+}
+.image > button > img{
+    width: 15px;
+}
+
+p > span{
+    cursor: pointer;
+    /* color: black; */
+}
+
+/* p > span :hover{
+    color: blue;
+} */
+
+@media screen and (min-width: 887px){
+    header >div > h1{
+        font-size: 30px;
+    }
+    #intro{
+        margin-left: 15pc;
+    }
+    .section{
+       
+    }
+     #form , #intro{
+        margin-left: 25pc;
+    }
+    #frontBottom{
+        margin-left:25pc;
+    }
+    #confirm{
+        margin-left: 23pc;
+    }
+
+    #emptyMsg{
+        /* padding-right: 10pc; */
+    }
+}
+@media screen and (min-width: 886px){
+
+    header >div > h1{
+        font-size: 40px;
+    }
+    #form{
+        margin-top: 50px;
+    }
+    #form, #frontBottom, #intro {
+        margin-left: 20pc;
+    }
+    #confirm{
+        margin-left: 20pc;
+    }
+    #emptyMsg{
+        margin-left: 6pc;
+    }
+}
+
+@media screen and (max-width: 885px){
+header >div > h1{
+    font-size: 30px;
+}
+#form{
+    margin-top: 3pc;
+}
+#form, #frontBottom{
+    margin-left: 12pc;
+}
+#intro{
+    margin-left: 10pc;
+}
+body {
+    /* background-image: url("764987.jpg"); */
+    background-repeat: no-repeat;
+    background-size: 70pc;
+}
+
+#confirm {
+    margin-left: 120px;
+}
+
+#emptyMsg{
+   margin-left: 7pc;
+}
+
+}
+
+@media screen and (min-width: 200px) and (max-width: 600px){
+
+    header >div > h1{
+        font-size: 30px;
+    }
+
+    #form{
+        margin-top: 3pc;
+    }
+    #form , #intro, #frontBottom{
+        
+        margin-left:5pc ;
+        width: fit-content;
+    }
+
+    #confirm{
+        margin-left: 20px;
+        width: fit-content;
+    }
+
+}
